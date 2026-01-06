@@ -1,0 +1,22 @@
+body {
+    background: url("https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2F1E2blfmrxuSPUH-2oc08gw%252F14273043642_d63ded6c05_o%2B%25281%2529.png&width=910") no-repeat top center;
+}
+
+.intld {
+    color: darkgreen;
+    background-color: antiquewhite;
+    margin: 50px 100px; border: blue solid 2px;
+    padding: 50px;
+}
+
+.intro {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#sumo {
+    font-family: impact;
+}
+
+blockquote {
+    font-style: italic;
+}

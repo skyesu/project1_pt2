@@ -1,3 +1,9 @@
+* {   /*full reset, affects everything in code*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*as opposed to content-box, box size includes border and padding rather than adding them on*/
+}
+
 body {
     background: url("https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2F1E2blfmrxuSPUH-2oc08gw%252F14273043642_d63ded6c05_o%2B%25281%2529.png&width=910") no-repeat top center;
     background-size: 100%;
@@ -6,10 +12,17 @@ body {
 h1 {
     font-style: italic;
     color: white;
+    /*font-family: kaeru kaeru; <-cool ass font, maybe use for zalgo stuff */
+}
+
+h1:hover {
+    color: yellow;
+    -webkit-text-stroke: 1px tomato;
+    text-shadow: 2px 2px darkslategray;
 }
 
 .window {
-    background-color: floralwhite;
+    background: linear-gradient(0.25turn,floralwhite, wheat);
     border: blue 4px ridge;
     border-top: blue groove;
     border-radius: 10px 10px 0 0;
@@ -19,7 +32,8 @@ h1 {
 }
 
 .window-top {
-    background-color: blue;
+    /*background-color: blue;*/
+    background: linear-gradient(0deg, blue 70%, dodgerblue);
     padding: 5px 5px 2px 5px;
     max-width: 100%;
     border-bottom: blue 4px ridge;
@@ -41,6 +55,7 @@ h1 {
     background-color: antiquewhite;
     margin: 50px 100px; border: blue solid 2px;
     padding: 50px;
+    border-radius: 10px;
 }
 
 .intro {

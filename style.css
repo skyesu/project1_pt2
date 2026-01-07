@@ -1,6 +1,40 @@
 body {
     background: url("https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2F1E2blfmrxuSPUH-2oc08gw%252F14273043642_d63ded6c05_o%2B%25281%2529.png&width=910") no-repeat top center;
+    background-size: 100%;
 }
+
+h1 {
+    font-style: italic;
+    color: white;
+}
+
+.window {
+    background-color: floralwhite;
+    border: blue 4px ridge;
+    border-top: blue groove;
+    border-radius: 10px 10px 0 0;
+    font-family: Tahoma;
+    padding: 0;
+    font-size: 10pt;
+}
+
+.window-top {
+    background-color: blue;
+    padding: 5px 5px 2px 5px;
+    max-width: 100%;
+    border-bottom: blue 4px ridge;
+    color: white;
+    /*font-family: "Trebuchet MS";*/
+    font-style: bold;
+    font-size: 12pt;
+}
+
+.window-doc {
+    background-color: white;
+    max-width: 100%;
+    border: floralwhite ridge;
+}
+
 
 .intld {
     color: darkgreen;
